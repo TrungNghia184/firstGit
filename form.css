@@ -1,0 +1,125 @@
+.form-container {
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    padding: 24px 24px;
+}
+body {
+    text-align: center;
+    background-color: rgba(104, 104, 204, 0.897);
+}
+h1 {
+    font-family: 'Inter', monospace;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 50px;
+}
+.form-group1 {
+    margin: 0px 0px 24px 0px;
+    width: 47%;
+    display: inline-block;
+}
+#name1, #email {
+    margin-left: -30px;
+}
+.form-group2 {
+    width: 97.5%;
+    display: block;
+}
+.form-control1 {
+    width: 95%;
+    border: 1px solid gray;
+    padding-left: 10px;
+    height: 32px;
+}
+.form-control2 {
+    width: 100%;
+    border: 1px solid gray;
+    padding-left: 10px;
+    height: 32px;
+    margin-bottom: 24px;
+}
+#city {
+    width: 97.5%;
+}
+#address {
+    width: 97.5%;
+}
+#more-info {
+    width: 98%;
+}
+#file {
+    width: 100%;
+    border: 1px solid gray;
+    display: none;
+}
+#file1 {
+    width: 70px;
+    border: 1px solid gray;
+    background-color: orange;
+    height: 97%;
+    margin-top: 1px;
+}
+#file-container {
+    width: 98%;
+    border: 1px solid gray;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#file-container p{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    width: 80%;
+    color: gray;
+    
+}
+.button-cointainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+#reset1 {
+    border: none;
+    background-color: orange;
+    width: 80px;
+    height: 36px;
+    color: white;
+    font-family: 'Inter', monospace;
+    font-size: 16px;
+    margin-right: 12px;
+}
+#send1 {
+    border: none;
+    background-color: orange;
+    width: 80px;
+    height: 36px;
+    color: white;
+    font-family: 'Inter', monospace;
+    font-size: 16px;
+    margin-right: 12px;
+}
+#more-info {
+    height: 120px;
+}
+.p1 {
+    font-size: 12px;
+    text-align: left;
+    color: gray;
+}
+.aleart1 {
+    background-color: rgba(201, 201, 120, 0.596);
+    border-radius: 4px;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 50px;
+    display: none;
+}
+.hidedisplay {
+    display: none;
+}
+.show {
+    display: block;
+}
